@@ -7,7 +7,8 @@ package org.itson.starbuzzcoffe.cafe;
 import org.itson.starbuzzcoffe.interfaces.Bebida;
 
 /**
- *
+ * Un objeto en concreto
+
  * @author Elkur
  */
 public class HouseBled extends Bebida {

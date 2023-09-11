@@ -8,6 +8,7 @@ import org.itson.starbuzzcoffe.interfaces.Bebida;
 import org.itson.starbuzzcoffe.interfaces.Condimento;
 
 /**
+ * Es un decorador concreto
  *
  * @author Elkur
  */
