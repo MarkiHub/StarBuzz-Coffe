@@ -1,6 +1,8 @@
 package org.itson.starbuzzcoffe.interfaces;
 
 /**
+ * Esta clase es la que se emplea como padre para las clases, ademas de
+ * especificar los atributos basicos
  *
  * @author Elkur
  */
@@ -14,7 +16,7 @@ public abstract class Bebida {
         this.costo = costo;
     }
 
-    public String getDescripcion(){
+    public String getDescripcion() {
         return descripcion;
     }
 
@@ -26,5 +28,5 @@ public abstract class Bebida {
     public String toString() {
         return "Cafe";
     }
-    
+
 }

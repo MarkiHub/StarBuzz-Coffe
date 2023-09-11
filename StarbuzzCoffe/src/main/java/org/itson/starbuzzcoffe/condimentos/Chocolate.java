@@ -8,6 +8,7 @@ import org.itson.starbuzzcoffe.interfaces.Bebida;
 import org.itson.starbuzzcoffe.interfaces.Condimento;
 
 /**
+ * Es un decorador concreto
  *
  * @author Elkur
  */
@@ -24,6 +25,6 @@ public class Chocolate extends Condimento {
 
     @Override
     public String toString() {
-        return this.getBebida().toString()+ " con chocolate";
+        return this.getBebida().toString() + " con chocolate";
     }
 }

@@ -5,6 +5,8 @@
 package org.itson.starbuzzcoffe.interfaces;
 
 /**
+ * Clase decorador que se emplea como padre para todos los decoradores y que
+ * ademas es una bebida y contiene una bebida
  *
  * @author Elkur
  */
@@ -23,7 +25,7 @@ public abstract class Condimento extends Bebida {
 
     @Override
     public String getDescripcion() {
-        return this.getDescripcion();
+        return super.getDescripcion();
     }
 
 }
