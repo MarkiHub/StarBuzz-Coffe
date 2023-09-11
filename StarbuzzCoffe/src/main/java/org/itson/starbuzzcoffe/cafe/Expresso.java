@@ -16,4 +16,8 @@ public class Expresso extends Bebida {
         super(descripcion, costo);
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " Expresso";
+    }
 }

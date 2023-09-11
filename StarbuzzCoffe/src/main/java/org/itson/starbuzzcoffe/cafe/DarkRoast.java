@@ -15,5 +15,10 @@ public class DarkRoast extends Bebida {
     public DarkRoast(String descripcion, double costo) {
         super(descripcion, costo);
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+" Dark roast";
+    }
     
 }

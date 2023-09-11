@@ -16,10 +16,14 @@ public class Chocolate extends Condimento {
     public Chocolate(Bebida bebida, String descripcion, double costo) {
         super(bebida, descripcion, costo);
     }
-    
+
     @Override
-    public double getCosto(){
-        return this.getBebida().getCosto()+super.getCosto();
+    public double getCosto() {
+        return this.getBebida().getCosto() + super.getCosto();
     }
 
+    @Override
+    public String toString() {
+        return this.getBebida().toString()+ " con chocolate";
+    }
 }

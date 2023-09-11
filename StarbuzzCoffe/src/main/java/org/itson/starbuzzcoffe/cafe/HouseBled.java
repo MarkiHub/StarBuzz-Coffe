@@ -16,4 +16,8 @@ public class HouseBled extends Bebida {
         super(descripcion, costo);
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " House bled";
+    }
 }

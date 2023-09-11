@@ -16,4 +16,8 @@ public class Decaf extends Bebida {
         super(descripcion, costo);
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " Decaf";
+    }
 }

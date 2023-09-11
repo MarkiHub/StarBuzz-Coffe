@@ -18,9 +18,12 @@ public class Leche extends Condimento {
     }
 
     @Override
-    public double getCosto(){
-        return this.getBebida().getCosto()+super.getCosto();
+    public double getCosto() {
+        return this.getBebida().getCosto() + super.getCosto();
     }
 
-
+    @Override
+    public String toString() {
+        return this.getBebida().toString() + " con leche";
+    }
 }

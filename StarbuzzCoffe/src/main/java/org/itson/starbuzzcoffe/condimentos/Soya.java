@@ -22,4 +22,8 @@ public class Soya extends Condimento {
         return this.getBebida().getCosto() + super.getCosto();
     }
 
+    @Override
+    public String toString() {
+        return this.getBebida().toString() + " con leche de soya";
+    }
 }
