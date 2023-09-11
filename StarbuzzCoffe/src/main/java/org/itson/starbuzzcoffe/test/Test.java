@@ -17,13 +17,17 @@ public class Test {
 
     public static void main(String[] args) {
         Bebida cafe = new DarkRoast("cafe", 45);
-        System.out.println(cafe+" "+cafe.getCosto());
-        
-        Bebida cafeConLeche = new Leche(cafe,"cafe", 10);
-        System.out.println(cafeConLeche+" "+cafeConLeche.getCosto());
-        
-        Bebida cafeConLecheYChocolate = new Chocolate(cafeConLeche,"cafe", 12);
-        System.out.println(cafeConLecheYChocolate+" "+cafeConLecheYChocolate.getCosto());
+        System.out.println(cafe + " " + cafe.getCosto());
+
+        Bebida cafeConLeche = new Leche(cafe, "cafe", 10);
+        System.out.println(cafeConLeche + " " + cafeConLeche.getCosto());
+
+        Bebida cafeConLecheYChocolate = new Chocolate(cafeConLeche, "cafe", 12);
+        System.out.println(cafeConLecheYChocolate + " " + cafeConLecheYChocolate.getCosto());
+
+        Bebida cafeConLecheChocolateYLeche = new Leche(cafeConLecheYChocolate, "cafe", 10);
+        System.out.println(cafeConLecheChocolateYLeche + " " + cafeConLecheChocolateYLeche.getCosto());
+
     }
 
 }
